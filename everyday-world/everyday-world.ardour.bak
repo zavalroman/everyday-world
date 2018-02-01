@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="3002" name="everyday-world" sample-rate="44100" end-is-free="1" id-counter="1350" name-counter="1" event-counter="2957" vca-counter="1">
+<Session version="3002" name="everyday-world" sample-rate="44100" end-is-free="1" id-counter="2589" name-counter="1" event-counter="7677" vca-counter="1">
   <ProgramVersion created-with="Ardour 5.12" modified-with="Ardour 5.12"/>
   <MIDIPorts>
     <Port name="MIDI Clock in" direction="input"/>
@@ -73,6 +73,7 @@
     <Source name="everyday-world.wav" type="audio" flags="" id="225" channel="1" origin="/home/roman/sound/everyday-world.wav" gain="1"/>
     <Source name="MIDI-1.mid" type="midi" flags="Writable,CanRename,Removable,RemovableIfEmpty,Empty" id="482" origin=""/>
     <Source name="MIDI-2.mid" type="midi" flags="Writable,CanRename" id="491" origin=""/>
+    <Source name="MIDI-3.mid" type="midi" flags="Writable,CanRename" id="2129" origin=""/>
   </Sources>
   <Regions>
     <Region name="everyday-world" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="4865024" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="227" type="audio" first-edit="nothing" source-0="223" source-1="225" master-source-0="223" master-source-1="225" channels="2"/>
@@ -81,6 +82,8 @@
     <Region name="everyday-world.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="4039208" length="825815" position="0" beat="0" sync-position="4039208" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="312" type="audio" first-edit="nothing" source-0="223" source-1="225" master-source-0="223" master-source-1="225" channels="2"/>
     <Region name="MIDI-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="13271" position="83496" beat="4.1022222222222222" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="0.65201436130007551" id="484" type="midi" first-edit="nothing" source-0="482" master-source-0="482"/>
     <Region name="MIDI-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="618202" position="714844" beat="35.120831443688587" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="30.372736205593348" id="1327" type="midi" first-edit="nothing" source-0="491" master-source-0="491"/>
+    <Region name="MIDI-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="79861" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="3.9236318972033359" id="2340" type="midi" first-edit="nothing" source-0="2129" master-source-0="2129"/>
+    <Region name="MIDI-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="277423" length="46415" position="1624405" beat="79.808257747543465" sync-position="277423" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="3" start-beats="13.630003779289492" length-beats="2.2804043839758066" id="2343" type="midi" first-edit="nothing" source-0="2129" master-source-0="2129"/>
   </Regions>
   <Selection/>
   <Locations>
@@ -458,6 +461,8 @@
     </Playlist>
     <Playlist id="436" name="MIDI.1" type="midi" orig-track-id="394" shared-with-ids="" frozen="0" combine-ops="0">
       <Region name="MIDI-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="618202" position="63336" beat="3.1117460317460317" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" start-beats="0" length-beats="30.372736205593348" id="493" type="midi" first-edit="nothing" source-0="491" master-source-0="491"/>
+      <Region name="MIDI-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="618202" position="715172" beat="35.136946334089195" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" start-beats="0" length-beats="30.372736205593348" id="1792" type="midi" first-edit="nothing" source-0="491" master-source-0="491"/>
+      <Region name="MIDI-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="531301" position="1346762" beat="66.167445200302339" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" start-beats="0" length-beats="26.103223733938023" id="2131" type="midi" first-edit="nothing" source-0="2129" master-source-0="2129"/>
     </Playlist>
   </Playlists>
   <UnusedPlaylists/>
@@ -526,6 +531,8 @@
       <Window name="midi-connection-manager" visible="0" x-off="1240" y-off="5" x-size="360" y-size="306"/>
       <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-54" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-158" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-394" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-54-85" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-84" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-54-86" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
@@ -534,26 +541,24 @@
       <Window name="PM-84-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-86-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-87-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-158" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-158-189" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-188" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="P-158-365" visible="0" x-off="0" y-off="1" x-size="806" y-size="333" custom-ui="1"/>
       <Window name="P-158-190" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-158-191" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="PM-189-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-188-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-365-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-190-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-191-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-158-365" visible="0" x-off="0" y-off="1" x-size="806" y-size="333" custom-ui="1"/>
-      <Window name="PM-365-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="RPM-394" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-394-466" visible="0" x-off="0" y-off="0" x-size="771" y-size="541" custom-ui="1"/>
       <Window name="P-394-424" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-394-426" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-394-427" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-466-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-424-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-426-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-427-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-394-466" visible="0" x-off="0" y-off="0" x-size="771" y-size="541" custom-ui="1"/>
-      <Window name="PM-466-" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 54" height="64" visible="1"/>
         <Object id="automation 58" height="64" visible="0"/>
@@ -573,7 +578,7 @@
           <Object id="processor 188"/>
           <Object id="processor 365"/>
         </Object>
-        <Object id="rtav 394" height="370" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="45" note-range-max="70"/>
+        <Object id="rtav 394" height="370" visible="1" midnam-model-name="Generic" midnam-custom-device-mode="MIDI" color-mode="MeterColors" note-range-min="48" note-range-max="73"/>
         <Object id="automation 398" height="64" visible="0"/>
         <Object id="automation 394 12/0/0" height="64" visible="0"/>
         <Object id="strip 394" visible="1" strip-width="Wide">
